@@ -1,0 +1,219 @@
+body{
+    width: 100%;
+    height: 1000px;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    
+}
+#divTong{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    background-attachment: scroll;
+    /* position: relative; */
+    
+
+}
+
+#divTrai{
+    width: 335px;
+    height: 100vh;
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* background-color: black; */
+    z-index: 1;
+
+}
+
+#divBorder{
+    width: 1px;
+    border-right:1px groove  rgba(97, 97, 97, 0.411);
+    height: 100vh;
+    float: right;
+    border-right-width: 100%;
+    border-right-width: 1px;
+    position:fixed ;
+    z-index: 3;
+    left: 335px;
+}
+
+#divTrai > .tren{
+    width: 100%;
+    height: 69px;
+    float: top;
+    position: relative;
+    
+}
+#logo{
+    top: 39px;
+    left: 24px;
+    position: absolute;
+
+}
+
+#divTrai > .duoi{
+    width: 100%;
+    background-color: black;
+    float: top;
+    height: 753px;
+    position: absolute;
+    z-index: 2;
+}
+
+
+
+.divChu{
+    width: 331px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+
+}
+
+.nutIcon{
+    margin-left: 24px;
+
+}
+
+.fontChu{
+    margin-left: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#themHover:hover{
+    border-radius: 25px;
+    background-color: rgba(83, 83, 83, 0.233);
+    cursor: pointer;
+}
+#themHover:hover .nutIcon{
+    transform: scale(1.1);
+}
+#themHover:hover .fontChu{
+    font-size: 16px;
+}
+
+#divPhai{
+    height: 100%;
+    /* background-color: aqua; */
+
+    /* float: right; */
+    
+    margin-left: 335px;
+    /* width: 100%; */
+    position: relative;
+    display: flex;
+
+    
+}
+#divPhai > .phai{
+    width: 319px;
+    position: absolute;
+    height: 100%;
+    right: 275PX;
+}
+#divPhai> .trai{
+    width: 630px;
+    position: absolute;
+    height: 100%;
+    left: 278PX;
+    /* background-color: bisque; */
+}
+
+#divPhai > .phai> .account{
+    top: 55px;;
+    width: 100%;
+    height: 62px;
+    position: absolute;
+
+
+
+}
+
+.account:hover{
+    cursor: pointer;
+}
+#avt{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    /* position: absolute; */
+    top: 43px;
+    left: 15px;
+}
+.list{
+    list-style: none;
+    position: absolute;
+    top: 0px;
+    left: 38px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.goiY{
+    display: flex;
+    margin-top: 132px;
+}
+
+.goiY>#trai{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+}
+
+.goiY>#phai{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    margin-left: 164px;
+}
+
+.goiY>#phai:hover{
+    cursor: pointer;
+}
+
+.suggestUser{
+    width: 315px;
+    height: 34px;
+    display: inline-flex;
+}
+
+.avtUser{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+#listSuggest{
+    list-style: none;
+    padding: 0;
+    margin-left: 10px;
+}
+.tenUser{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 600;
+}
+.noteUser{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+}
+.fl{
+    color: #0095F6;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    font-size:12px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    
+}
